@@ -1,36 +1,4 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>MY NOTE</title>
-</head>
-<body>
-    <header>
-        <h2>Notes</h2>
-    </header>
-    <section>
-        <div class="les_inputs">
-            <div class="first_input">
-                <input type="text" id="titre" placeholder="Titre">
-            </div>
-            <div class="second_input">
-                <input type="text" id="note" placeholder="Note">
-                <p class="valide">Femer</p>
-            </div>
-        </div>
-    </section>
-
-    <section>
-        <div class="contenu">
-
-        </div>
-    </section>
-
-    <script>
-        let titre = document.getElementById('titre')
+let titre = document.getElementById('titre')
         let note = document.getElementById('note')
         let enregistre = document.querySelector('.valide')
         let activation = document.querySelector('.second_input')
@@ -176,7 +144,3 @@
         }
         
         recupere()
-       
-</script>
-</body>
-</html>
